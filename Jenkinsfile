@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka'
+                     echo 'Hi, this is Vallabh'
                  }
                  }
                  stage('Two') {
@@ -14,7 +14,7 @@ pipeline {
                  stage('Three') {
                  when {
                        not {
-                            branch "master"
+                            branch "main"
                        }
                  }
                  steps {
