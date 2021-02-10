@@ -7,6 +7,6 @@ pipeline {
          stages {
                  stage('Run') {
                  steps {
-                     sh "python main.py"
+                     sh "docker --version"
                  }
                  }}}
