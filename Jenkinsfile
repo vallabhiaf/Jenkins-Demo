@@ -8,6 +8,6 @@ pipeline {
                  stage('Run') {
                  steps {
                      sh "docker --version"
-                     sh "docker build -t jenkins-demo"
+                     sh "docker build -t jenkins-demo ."
                  }
                  }}}
