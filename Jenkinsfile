@@ -1,7 +1,7 @@
 pipeline {
          agent any
          triggers {
-       /?poll repo every 2 minute for changes in git 
+       //poll repo every 2 minute for changes in git 
                   pollSCM('*/2 * * * *')}
          
          stages {
